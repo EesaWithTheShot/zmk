@@ -1,13 +1,13 @@
 manifest:
   remotes:
-    - name: zephyrproject-rtos
-      url-base: https://github.com/zephyrproject-rtos
+    - name: eesawiththeshot
+      url-base: https://github.com/EesaWithTheShot
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v4.1.0+zmk-fixes
+      remote: eesawiththeshot
+      revision: ssd1322fix
       clone-depth: 1
       import:
         name-blocklist:
